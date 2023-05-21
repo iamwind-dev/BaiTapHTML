@@ -1,0 +1,23 @@
+table{
+    border: 2px solid yellow;
+    border-collapse: collapse;
+    /* padding: 50px 0; */
+}
+td{
+    border: 2px solid yellow;
+}
+th{
+    background-color: maroon;
+    color: white;
+    border: 2px solid yellow;
+}
+#head{
+    text-align: left;
+}
+td{
+text-align: center;
+}
+div{
+    /* margin-left: 50px; */
+    margin: auto 30% auto 30%;
+}

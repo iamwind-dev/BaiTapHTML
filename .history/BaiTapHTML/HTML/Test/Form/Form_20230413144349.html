@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <br />
+    <form action="">
+      Text Field:
+      <input
+        type="text"
+        name="t"
+        value="Nhập vào đây"
+        size="20"
+        maxlength="30"
+      />
+      <br />
+      <br />
+      Nhập mật khẩu:
+      <input
+        type="password"
+        name="p"
+        value="12345678"
+        size="10"
+        maxlength="8"
+      />
+      <br />
+      Đối tượng ẩn:
+      <input type="hidden" name="h" value="An roi" size="10" maxlength="20" />
+      <br />
+      group checkbox: <br />
+      Anh: <input type="checkbox" name="e" />
+      <br />
+      Hoa: <input type="checkbox" name="t" />
+      <br />
+      Nhat: <input type="checkbox" name="n" />
+      <br />
+      group option gioi tinh: <br />
+      Nam: <input type="radio" name="gt" /><br />
+      Nu: <input type="radio" name="gt" /><br />
+      Khac: <input type="radio" name="gt" /><br />
+      <input type="submit" value="Kich chuot tai day" />
+      <input
+        type="button"
+        value="Kich chuot tai day"
+        onclick="alert('Chao cac ban lop tk w9');"
+      /><br />
+      <textarea name="tuychon" cols="30" rows="10">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda excepturi ad corrupti minima quisquam praesentium aut impedit placeat! Iure iste beatae, voluptates incidunt voluptatem id cumque quas molestiae itaque a.
+        </textarea
+      ><br />
+      <select name="chon1">
+        <option value="1">Hoc C++</option>
+        <option value="2">Hoc Java</option>
+        <option value="3">Hoc Python</option>
+        <option value="4">Hoc TKW</option></select
+      ><br />
+      <select name="chon2" size="7" multiple>
+        <option value="1">Hoc C++</option>
+        <option value="2">Hoc Java</option>
+        <option value="3">Hoc Python</option>
+        <option value="4">Hoc CSDL</option>
+        <option value="5">Hoc TK wed</option>
+        <option value="6">Hoc Lap trinh Web</option></select
+      ><br />
+
+      <select name="chon3">
+        <optgroup label="HOC Lap Trinh"><option value="C++"></option></optgroup>
+        <optgroup label="Hoc CSDL"><option value="SQL"></option></optgroup>
+      </select>
+
+      <table>
+        <tr>
+          <td>
+            <label for="firstname">First Name: </label>
+          </td>
+          <td>
+            <input type="text" name="td1" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="lasttname">Last Name: </label>
+          </td>
+          <br />
+          <td>
+            <input type="text" name="td2" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
